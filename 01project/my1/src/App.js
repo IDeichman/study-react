@@ -6,10 +6,23 @@ import Home from './home';
 const App = () => {
   return (
     <div>
-  AutoCult.by
-   <div><Header /></div>
-   <div><Home /></div>
-</div>)
+<header>
+<img src='depositphotos_95491980-stock-illustration-auto-company-vehicle-logo-design.jp'/>
+</header>
+<nav>
+  <div>
+    Profile
+  </div>
+  <div>
+    Messages
+  </div>
+  <div>
+  MAIN CONTENT
+  </div>
+</nav>
+
+</div>
+  )
 }
 
  
