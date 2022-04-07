@@ -1,13 +1,12 @@
-import logo from './logo.svg';
+ import React from 'react';
 import './App.css';
-import Header from './header';
-import Home from './home';
+
 
 const App = () => {
   return (
-    <div>
+    <div className='app-wrapper'>
 <header>
-<img src='depositphotos_95491980-stock-illustration-auto-company-vehicle-logo-design.jp'/>
+<img src='https://static.rfstat.com/renderforest/images/v2/logo-homepage/flat_3.png'/>
 </header>
 <nav>
   <div>
