@@ -15,10 +15,32 @@ const App = () => {
   <div>
     Messages
   </div>
+  </nav>
   <div className='content'>
-  MAIN CONTENT
+    <div>
+ <img src='https://video-vr-360.ru/wp-content/uploads/2020/04/15-scaled-e1587376724823-1024x395.jpg'/>
   </div>
-</nav>
+  <div>
+    ava+description
+  </div>
+  <div>
+    <div>
+    my posts
+    </div>
+    <div>
+      new post
+    </div>
+    </div>
+    <div>
+      <div>
+      post1
+    </div>
+    <div>
+      post2
+    </div>
+  </div>
+  </div>
+
 
 </div>
   )
