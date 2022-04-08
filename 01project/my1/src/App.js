@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className='app-wrapper'>
 <header className='header'>
-<img src='https://static.rfstat.com/renderforest/images/v2/logo-homepage/flat_3.png'/>
+<img src='https://image.shutterstock.com/image-vector/auto-repair-service-logo-badge-260nw-471922994.jpg'/>
 </header>
 <nav className='nav'>
   <div>
