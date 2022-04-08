@@ -5,21 +5,21 @@
 grid-template-areas: 
 "h h"
 "n c";
-  grid-template-rows: 100px 1fr;
+  grid-template-rows: 80px 1fr;
   grid-template-columns: 2fr 10fr;
   /*grid-gap: 10px;*/
 }
   .header{
 grid-area: h;
-background-color: black;
+background-color:white;
   }
   .header img{
-    width: 100px;
+    width: 120px;
   }
 
   .nav{
 grid-area: n;
-background-color: rgb(180, 46, 158);
+background-color: white;
   }
 
 .content{

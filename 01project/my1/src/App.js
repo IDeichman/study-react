@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className='app-wrapper'>
 <header className='header'>
-<img src='https://image.shutterstock.com/image-vector/auto-repair-service-logo-badge-260nw-471922994.jpg'/>
+<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMCeH7tfcnz8Jo8x70mSTRE2QtU8Qk3X0uTA&usqp=CAU'/>
 </header>
 <nav className='nav'>
   <div>
@@ -18,7 +18,7 @@ const App = () => {
   </nav>
   <div className='content'>
     <div>
- <img src='https://video-vr-360.ru/wp-content/uploads/2020/04/15-scaled-e1587376724823-1024x395.jpg'/>
+ <img src='https://komandirovka.ru/upload/iblock/a42/a426f0dea1d58256260cc50f4088c84c.jpg'/>
   </div>
   <div>
     ava+description
