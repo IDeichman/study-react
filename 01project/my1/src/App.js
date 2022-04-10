@@ -1,35 +1,14 @@
  import React from 'react';
 import './App.css';
+import Header from './componenta/Header';
+import NavBar from './componenta/NavBar';
 
 
 const App = () => {
   return (
     <div className='app-wrapper'>
-<header className='header'>
-<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMCeH7tfcnz8Jo8x70mSTRE2QtU8Qk3X0uTA&usqp=CAU'/>
-</header>
-<nav className='nav'>
-  <div>
-    <h1>
-    Profile
-    </h1>
-  </div>
-  <div>
-    <h1>
-    Messages
-    </h1>
-  </div>
-  <div>
-    <h1>
-      News
-    </h1>
-  </div>
-  <div>
-    <h1>
-      Settings
-    </h1>
-  </div>
-  </nav>
+<Header/>
+<NavBar/>
   <div className='content'>
     <div>
  <img src='https://komandirovka.ru/upload/iblock/a42/a426f0dea1d58256260cc50f4088c84c.jpg'/>
