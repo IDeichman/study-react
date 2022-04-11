@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
-import Header from './componenta/Header';
-import NavBar from './componenta/NavBar';
-import Profile from './componenta/Profile';
+import Header from "./componenta/Header.jsx"
+import NavBar from "./componenta/NavBar.jsx"
+import  Profile  from "./componenta/Profile.jsx"
+
+
 
 
 const App = () => {
@@ -11,6 +13,7 @@ const App = () => {
 <Header/>
 <NavBar/>
 <Profile/>
+
 </div>
   )
 }
