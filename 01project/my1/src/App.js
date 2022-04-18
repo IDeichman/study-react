@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Header from "./componenta/Header.jsx";
-import NavBar from "./componenta/NavBar.jsx";
-import  Profile  from "./componenta/Profile.jsx";
+import Header from "./componenta/Header/Header.jsx";
+import NavBar from "./componenta/NavBar/NavBar.jsx";
+import  Profile  from "./componenta/Profile/Profile.jsx";
 
 
 
