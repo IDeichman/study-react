@@ -3,6 +3,8 @@
     background-color: azure;
     }
     .item {
-        color: green;
+        color: brown;
     }
-    
+    .item img{
+        height: 50px;
+    }

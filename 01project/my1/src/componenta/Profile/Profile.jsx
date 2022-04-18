@@ -13,8 +13,6 @@ const Profile = () =>{
   </div>
   <MyPost />
   <Post />
-  <Post />
-  <Post />
   </div>
 }
 
