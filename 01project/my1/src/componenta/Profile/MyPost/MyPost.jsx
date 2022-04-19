@@ -1,5 +1,7 @@
 import React from "react";
 import z from './MyPost.module.css'
+import Like from "./Post/Like/Like";
+import Post from "./Post/Post";
 
 const MyPost = () =>{
     return (
@@ -15,6 +17,12 @@ const MyPost = () =>{
     <textarea></textarea>
     <button>add post</button>
     </div>
+    </div>
+    <div>
+    <Post message='hi,im here'/>
+    <Like press="20" />
+    <Post message='i too'/>
+    <Like press="15" />
     </div>
     
 </div>  )
