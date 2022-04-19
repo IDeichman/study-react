@@ -1,6 +1,5 @@
 import React from "react";
 import z from './MyPost.module.css'
-import Like from "./Post/Like/Like";
 import Post from "./Post/Post";
 
 const MyPost = () =>{
@@ -19,10 +18,10 @@ const MyPost = () =>{
     </div>
     </div>
     <div>
-    <Post message='hi,im here'/>
-    <Like press="20" />
-    <Post message='i too'/>
-    <Like press="15" />
+    <Post message='hi,im here' LikeCount = '20' />
+    
+    <Post message='i too' LikeCount = '15' />
+    
     </div>
     
 </div>  )
