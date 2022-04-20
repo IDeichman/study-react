@@ -1,11 +1,13 @@
 import React from "react";
 
-const Dialogs=()=>{
+const Dialogs=()=> {
     return (
         <div>
-            Dialogs
+            <h2>
+                Dialogs
+            </h2>
         </div>
-    )
+    );
 }
 
 export default Dialogs;
