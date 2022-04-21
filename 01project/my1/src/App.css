@@ -2,9 +2,9 @@
   display: grid;
   margin: 0 auto;
   width: 1200px;
-grid-template-areas: 
-"h h"
-"n c";
+  grid-template-areas:
+    "h h"
+    "n c";
   grid-template-rows: 80px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
@@ -13,12 +13,4 @@ grid-template-areas:
 .app-wrapper-content {
   grid-area: c;
   background-color: azure;
-  }
-
-
-    
-
-        
-
-
-
+}
