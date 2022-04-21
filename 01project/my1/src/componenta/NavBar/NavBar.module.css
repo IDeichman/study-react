@@ -5,10 +5,12 @@
 }
 
 .item a {
-    color: blue;
+    color: aqua;
     text-decoration: none;
 }
 
-.item a .active {
-    color: orangered;
+.item a.activeLink {
+    color: brown;
 }
+
+;
