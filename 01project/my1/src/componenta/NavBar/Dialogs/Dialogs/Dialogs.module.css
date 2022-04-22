@@ -9,9 +9,9 @@
 .dialog a {
     color: rgb(241, 14, 128);
     text-decoration: none;
-
 }
-.dialog a.active{
+
+.dialog a.active {
     color: rgb(0, 255, 81);
 }
 
