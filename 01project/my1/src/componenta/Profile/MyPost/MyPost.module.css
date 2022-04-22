@@ -3,6 +3,11 @@
     background-color: azure;
     }
     .item {
-        color: green;
+        padding: 10px;
+        color: rgb(30, 39, 209);
+    }
+    .postMessage{
+        background-color: bisque;
+
     }
     
