@@ -5,15 +5,17 @@
 
 }
 
-.dialogsItems {}
 
-.dialog {
-    color: rgb(185, 33, 109);
+.dialog a {
+    color: rgb(241, 14, 128);
+    text-decoration: none;
 
+}
+.dialog a.active{
+    color: rgb(0, 255, 81);
 }
 
 .messages {
     color: blueviolet;
-
 
 }
