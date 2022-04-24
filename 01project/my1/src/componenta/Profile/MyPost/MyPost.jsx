@@ -3,9 +3,13 @@ import z from './MyPost.module.css'
 import Post from "./Post/Post";
 
 let postData = [
-  {message:"Hi, i'm here", likeCount:20},
-  {message:"I'm too", likeCount:15}
+  { message: "Hi, i'm here", likeCount: 20 },
+  { message: "I'm too", likeCount: 15 }
 ]
+
+let postsElement = postData.map
+  ((postlike) => <Post message={postlike.message} LikeCount={postlike.likeCount} />)
+
 
 
 const MyPost = () => {
@@ -26,10 +30,9 @@ const MyPost = () => {
         </div>
       </div>
       <div className="postMessage">
-        <h3><Post message={postData[0].message} LikeCount={postData[0].likeCount} /></h3>
-
-        <h3><Post message={postData[1].message} LikeCount={postData[1].likeCount} /></h3>
-
+        <h2>
+          {postsElement}
+        </h2>
       </div>
 
     </div>)
